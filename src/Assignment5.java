@@ -45,7 +45,7 @@ public class Assignment5 {
             default:
                 System.out.println("Invalid Number");
         }
-
+ System.out.println() ;
         for (int x = 1; x <= 10; x++) {
             for (int y = 1; y <= 10; y++) {
                 System.out.println(x + "×" + y + "=" + (x * y));
@@ -64,11 +64,10 @@ public class Assignment5 {
             count++;
         }
         System.out.println("Number of digits: " + count);
-        input3.close();
 
 
             Scanner input4 = new Scanner(System.in);
-            System.out.print(" Enter a Number: ");
+            System.out.println(" Enter a Number: ") ;
             long number2 = input4.nextLong();
 
             long reversed = 0;
